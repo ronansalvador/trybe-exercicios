@@ -1,0 +1,47 @@
+div:hover {
+    border: 5px solid black;
+}
+
+#cor-primaria{
+    background-color: red;
+}
+
+#cor-secundaria{
+    background-color: green;
+}
+
+#cor-complementar{
+    background-color: #E36920;
+
+}
+
+#cor-escura{
+    background-color: #080E99;
+    color: white;
+
+}
+
+#cor-clara{
+    background-color: #9BEBA3;
+
+}
+
+.div-maior{
+    height: 100px;
+}
+
+/* h3:nth-child(2){ 
+    background-color: yellow
+} */
+
+/* div h3:nth-child(odd){
+    color: yellow;
+} */
+
+div:nth-child(odd) h3 {
+    font-style: italic;
+    color: yellow;
+    
+  }
+
+

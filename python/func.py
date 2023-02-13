@@ -26,3 +26,11 @@ concat("Carlos", "Cristina", "Maria")  # saída: "Carlos, Cristina, Maria"
 dict(nome="Felipe", sobrenome="Silva", idade=25)  # cria um dicionário utilizando as chaves passadas
 
 dict(nome="Ana", sobrenome="Souza", idade=21, turma=1)  # o número de parâmetros passados para a função pode variar
+
+len([1, 2, 3, 4])  # função len não aceita argumentos nomeados
+
+len(obj=[1, 2, 3, 4])  # este código irá falhar
+
+print("Coin", "Rodrigo", ", ")  # imprime Coin Rodrigo ,
+
+print("Coin", "Rodrigo", sep=", ")  # nomeando o terceiro parâmetro, agora temos a saída: Coin, Rodrigo

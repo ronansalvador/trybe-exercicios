@@ -48,3 +48,6 @@ if __name__ == "__main__":
     header = ["categoria", "percentagem"]
     with open("report.csv", "w") as file:
         write_csv_report(file, header, books_percentage_rows)
+
+# final exercicios dia 2
+
